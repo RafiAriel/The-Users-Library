@@ -13,9 +13,9 @@ const NavBar = () => {
 		<Bar>
 		<Navbar bg="dark" variant="dark" sticky="top">
             <Navbar.Brand>
-				<Logo><span>The Users Library</span></Logo>
-			</Navbar.Brand>
-			<Button variant="secondary" onClick={()=> navigate('users/add')}>Add New User</Button>{' '}
+		<Logo><span>The Users Library</span></Logo>
+	    </Navbar.Brand>
+	   <Button variant="secondary" onClick={()=> navigate('users/add')}>Add New User</Button>{' '}
 	  </Navbar>
 	  </Bar>
 	  </>
